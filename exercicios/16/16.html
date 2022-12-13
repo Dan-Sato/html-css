@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        width: 300px;
+        height: 50px;
+        background-color: lightgray;
+        /* border-width: 10px;
+        border-style: solid;
+        border-color: red; */
+        border: 10px solid red;
+        padding: 20px;
+        /* outline-width: 30px;
+        outline-style: solid;
+        outline-color: blue; */
+        outline: 30px solid blue;
+        margin: auto;
+      }
+      body {
+        font: 1em Arial;
+        background-color: peachpuff;
+      }
+      #caixa {
+        background-color: snow;
+        width: 400px;
+        margin: auto;
+        padding: 1px 10 px;
+        box-shadow: 3px 5px 4px black;
+        border-radius: 10px 30px;
+      }
+      /* #nostyle {
+      } */
+      .box {
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+      }
+      .box3 {
+        background-color: #00008b;
+      }
+      #box1 {
+        background-color: #8b0000;
+      }
+      #box2 {
+        background-color: #556b2f;
+      }
+      #box4 {
+        background-color: #ffffff;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>meu site</h1>
+      <nav>link link link link</nav>
+    </header>
+    <main>
+      <section>
+        <article id="caixa">
+          <h2>título</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis
+            quasi exercitationem nisi nulla, quibusdam repellat perferendis in
+            commodi ducimus consectetur eaque. Maxime dicta accusamus laudantium
+            eos sit dolorem a architecto?
+          </p>
+        </article>
+        <article>
+          <h2>título</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
+            sint, esse expedita ex optio accusamus suscipit cupiditate minus
+            alias magni quas natus nulla cumque atque repellendus, quaerat unde
+            voluptates minima.
+          </p>
+          <aside>lba bla bla</aside>
+        </article>
+      </section>
+      <aside>bla bla bla</aside>
+    </main>
+    <footer>radapé</footer>
+    <br />
+    <h1 id="nostyle">Identificadores em CSS</h1>
+    <p>
+      No exercício anterior, vimos as <mark>classes</mark> e entendemos que
+      vários elementos podem ter uma mesma classe. Mas se quisermos
+      <mark>identificar</mark> os elementos, dando um "nome" específico para
+      cada um, podemos usar os IDs. Em um mesmo documento,
+      <strong> não podemos ter dois elementos com o mesmo ID! </strong>
+    </p>
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box box3"></div>
+    <div class="box" id="box4"></div>
+    <div class="box box3"></div>
+  </body>
+</html>

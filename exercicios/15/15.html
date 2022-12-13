@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font: normal 1em "Arial, Helvetica, sans-serif";
+      }
+      h1 {
+        font-size: 2em;
+        color: darkgreen;
+      }
+      h2 {
+        color: green;
+      }
+      a {
+        font-weight: bold;
+        text-decoration: none;
+        color: red;
+      }
+      a:visited {
+        color: darkred;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      #titulo-principal {
+        background-color: darkgreen;
+        color: white;
+        text-align: center;
+      }
+      .topico {
+        text-align: right;
+      }
+      .texto {
+        text-align: justify;
+      }
+      .especial:hover {
+        color: white;
+        background-color: black;
+        text-decoration: none;
+      }
+      .especial::before {
+        content: ">>";
+        font-weight: lighter;
+      }
+      .especial::after {
+        content: "<<";
+        font-weight: lighter;
+      }
+      div > p {
+        display: none;
+      }
+      div:hover > p {
+        display: block;
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="titulo-principal">des web</h1>
+    <h1>aprenda html</h1>
+    <h2 class="topico">semantica web</h2>
+    <p class="texto">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum magni
+      consectetur sunt ut error inventore dolores veniam eius optio iure.
+      Exercitationem blanditiis expedita suscipit, veniam saepe commodi iure
+      omnis fuga.
+    </p>
+    <h1>css</h1>
+    <h2 class="topico">estilos web</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid velit
+      enim minus praesentium molestias sint tempora, a quidem sed culpa qui
+      earum voluptatibus, quibusdam esse. Quis vero delectus odio quisquam!
+    </p>
+    <h1>persol=nalizando um link</h1>
+    <p>link <a href="https://google.com">google</a></p>
+    <p>padr~eps <a href="https://www.w3c.br">w3c br</a></p>
+    <p>vidos <a href="https://youtube.com" class="especial">youtube</a></p>
+    <h1>conteudo especial</h1>
+    <div>
+      passe p ,pode aqui
+      <p>!!!!</p>
+    </div>
+    <p>conteudo oculto</p>
+  </body>
+</html>

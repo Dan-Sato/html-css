@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video
+      width="600px"
+      poster="img/foto-p.png"
+      preload="metadata"
+      controls
+      autoplay
+      loop
+    >
+      <source src="media/meu-video.mp4" type="video/mp4" />
+      <source src="media/meu-video.m4v" type="video/mp4" />
+      <source src="media/meu-video.webm" type="video/webm" />
+      <p>video not loaded</p>
+    </video>
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>
