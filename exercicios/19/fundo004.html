@@ -10,12 +10,25 @@
         font-size: xx-large;
       }
       body {
+        height: 100vh;
+        margin: 0px;
+
+        /* background-color: black;
         background-image: url(img/wallpaper002.jpg);
-        background-size: contain;
-        margin: 0;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed; */
+
+        /* background shorthand 
+            color > image > position > repeat > [size] > attachment
+        */
+        background: black url(img/wallpaper002.jpg) center center no-repeat
+          fixed;
+        background-size: cover;
       }
       main {
-        width: 425px;
+        max-width: 425px;
         background-color: white;
         margin: auto;
         padding: 10px;
