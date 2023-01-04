@@ -44,12 +44,13 @@ footer > p > a {
   text-decoration: none;
 }
 .img-container {
-  min-width: 480px;
-  min-height: 300px;
+  min-width: 300px;
+  min-height: 420px;
   color: white;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  box-shadow: 50px black;
 }
 #a {
   background-image: url(img/background001.jpg);
