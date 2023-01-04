@@ -54,6 +54,12 @@ footer > p > a {
 #a {
   background-image: url(img/background001.jpg);
   background-position: right center;
+  background-attachment: fixed;
+}
+#b {
+  background-image: url(img/background002.jpg);
+  background-position: left center;
+  background-attachment: fixed;
 }
 #p {
   width: fit-content;
@@ -61,8 +67,4 @@ footer > p > a {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 60px 30px;
   font-size: 4vw;
-}
-#b {
-  background-image: url(img/background002.jpg);
-  background-position: left center;
 }
