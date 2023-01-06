@@ -3,6 +3,7 @@
 
 * {
   margin: 0px;
+  padding: 0px;
 }
 html,
 body {
@@ -16,8 +17,16 @@ header {
   text-align: center;
 }
 header > h1 {
+  font-weight: normal;
   font-size: 10vw;
   font-variant: small-caps;
+}
+header > h2 {
+  font-weight: normal;
+}
+p {
+  padding: 30px;
+  font-size: 4vw;
 }
 a {
   color: white;
@@ -31,19 +40,18 @@ main {
   font-family: "Sriracha", cursive;
   line-height: 2em;
   padding: 10vh 0px 10vh 0px;
-}
-main > p {
-  padding: 30px;
-  font-size: 4vw;
+  font-size: 3.5vw;
 }
 footer {
   background-color: black;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
   color: white;
   text-align: center;
-  margin: 0px;
   padding: 10px;
+}
+footer > p {
+  font-size: 16px;
+  padding: 0px;
 }
 .img-container {
   min-width: 300px;
@@ -51,23 +59,18 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  box-shadow: 50px black;
-  padding: 30px;
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.753);
+}
+.img-container > p {
+  width: fit-content;
+  background-clip: content-box;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 #a {
   background-image: url(../img/background001.jpg);
   background-position: right center;
-  background-attachment: fixed;
 }
 #b {
   background-image: url(../img/background002.jpg);
   background-position: left center;
-  background-attachment: fixed;
-}
-#p {
-  width: fit-content;
-  background-clip: content-box;
-  background-color: rgba(0, 0, 0, 0.5);
-  font-size: 4vw;
-  padding: 50px 0px 50px 0px;
 }
