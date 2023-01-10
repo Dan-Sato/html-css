@@ -15,7 +15,7 @@
         border: 1px solid black;
         padding: 5px 15px;
       }
-      thead {
+      .thead {
         color: white;
         background-color: gray;
         font-weight: bold;
@@ -33,18 +33,34 @@
         font-weight: bold;
         text-align: left;
       }
+      .carea {
+        background-color: rgb(173, 173, 173);
+      }
+      .cdisc {
+        background-color: lightgray;
+      }
+      .cmedia {
+        background-color: rgb(170, 170, 170);
+      }
     </style>
   </head>
   <body>
     <table>
       <thead>
-        <tr>
+        <colgroup>
+          <col class="carea" />
+          <col class="cdisc" />
+          <col class="cnotas" span="2" />
+          <!--  span = expande colunas -->
+          <col class="cmedia" />
+        </colgroup>
+        <tr class="thead">
           <th rowspan="2" scope="col">Área</th>
           <th rowspan="2" scope="col">Disciplinas</th>
           <th colspan="2" scope="colgroup">Notas</th>
           <th rowspan="2" scope="col">Média</th>
         </tr>
-        <tr>
+        <tr class="thead">
           <th scope="col">Nota 1</th>
           <th scope="col">Nota 2</th>
         </tr>
