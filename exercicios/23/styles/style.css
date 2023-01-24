@@ -1,0 +1,24 @@
+@charset "UTC-8";
+
+body {
+  background-image: url(../img/fundo-madeira.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+main {
+  margin: auto;
+  width: fit-content;
+}
+aside {
+  padding: 0;
+}
+button {
+  object-position: right;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+}
