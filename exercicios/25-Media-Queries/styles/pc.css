@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+  background-image: url(../img/back-pc.jpg);
+}
+
+#phone {
+  display: none;
+}
+#tablet {
+  display: none;
+}
+#pc {
+  display: block;
+}
+#tv {
+  display: none;
+}
+#print {
+  display: none;
+}
